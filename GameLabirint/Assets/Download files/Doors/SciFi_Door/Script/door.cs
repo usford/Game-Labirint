@@ -3,24 +3,23 @@ using System.Collections;
 
 public class door : MonoBehaviour {
 	GameObject thedoor;
-    //public Transform mainDoor;
-    //void OnTriggerEnter(Collider obj)
-    //{
-    //    thedoor = GameObject.FindWithTag("SF_Door");
-    //    thedoor.GetComponent<Animation>().Play("open");
-    //}
+    GameObject btn;
+    private bool used = true;
 
-    //void OnTriggerExit(Collider obj)
-    //{
-    //    thedoor = GameObject.FindWithTag("SF_Door");
-    //    thedoor.GetComponent<Animation>().Play("close");
-    //}
-    void OnTriggerStay(Collider obj)
+    void Update()
     {
         thedoor = GameObject.FindWithTag("SF_Door");
-        if (Input.GetKey("e") && thedoor.transform.position.y == -0.61899)
-        {        
-                thedoor.GetComponent<Animation>().Play("open");          
+        btn = GameObject.FindWithTag("btnPress");
+        if (Input.GetKeyDown("e") && used && thedoor.GetComponent<Animation>().isPlaying == false)
+        {
+            thedoor.GetComponent<Animation>().Play("open");
+            btn.GetComponent<Animation>().Play("press");
+            used = false;
+        }else if (Input.GetKeyDown("e") && used == false && thedoor.GetComponent<Animation>().isPlaying == false)
+        {
+            thedoor.GetComponent<Animation>().Play("close");
+            btn.GetComponent<Animation>().Play("press");
+            used = true;
         }
     }
 }
