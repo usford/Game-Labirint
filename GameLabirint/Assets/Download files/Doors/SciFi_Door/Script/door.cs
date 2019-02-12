@@ -6,19 +6,24 @@ public class door : MonoBehaviour {
     GameObject btn;
     private bool used = true;
 
-    void Update()
+    void Start()
     {
         thedoor = GameObject.FindWithTag("SF_Door");
         btn = GameObject.FindWithTag("btnPress");
+    }
+
+    void OnTriggerStay()
+    {
+        
         if (Input.GetKeyDown("e") && used && thedoor.GetComponent<Animation>().isPlaying == false)
         {
             thedoor.GetComponent<Animation>().Play("open");
-            btn.GetComponent<Animation>().Play("press");
+            btn.GetComponent<Animation>().Play("pressBtn1");
             used = false;
         }else if (Input.GetKeyDown("e") && used == false && thedoor.GetComponent<Animation>().isPlaying == false)
         {
             thedoor.GetComponent<Animation>().Play("close");
-            btn.GetComponent<Animation>().Play("press");
+            btn.GetComponent<Animation>().Play("pressBtn1");
             used = true;
         }
     }
