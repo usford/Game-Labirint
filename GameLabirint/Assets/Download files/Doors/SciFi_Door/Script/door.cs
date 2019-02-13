@@ -8,8 +8,8 @@ public class door : MonoBehaviour {
 
     void Start()
     {
-        thedoor = GameObject.FindWithTag("SF_Door");
-        btn = GameObject.FindWithTag("btnPress");
+        thedoor = GameObject.Find("door");
+        btn = GameObject.Find("button1");
     }
 
     void OnTriggerStay()
