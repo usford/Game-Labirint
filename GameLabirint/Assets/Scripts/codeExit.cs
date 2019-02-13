@@ -18,7 +18,7 @@ public class codeExit : MonoBehaviour
         panelE.SetActive(false);
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
-        inputE.text = "";
+        inputE.text = "";   
         txtError.enabled = false;
         GameObject.Find("vThirdPersonController").GetComponent<vThirdPersonCamera>().lockCamera = false;
         GameObject.Find("vThirdPersonCamera").GetComponent<Invector.CharacterController.vThirdPersonController>().lockMovement = false;

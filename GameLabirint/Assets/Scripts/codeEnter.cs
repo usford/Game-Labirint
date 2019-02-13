@@ -8,10 +8,12 @@ public class codeEnter : MonoBehaviour
     public Text txtError;
     GameObject thedoor;
     GameObject puzzleCube2;
+    Button buttonEnter;
     public string password;
     public GameObject panelE;
     public InputField inputE;
     private bool puzzle2 = true;
+    public bool pass = false;
     void Start()
     {
         thedoor = GameObject.Find("door1");
@@ -20,6 +22,10 @@ public class codeEnter : MonoBehaviour
 
     public void press()
     {
+        //1 - ответ на загадку
+        //5 - фигура, где 5/2
+        //4 - кол-во туалетных бумаг
+        //6 - кол-во железных хреней
         if (inputE.text == "1234")
         {
             puzzleCube2.GetComponent<Animation>().Play("cubePuzzle2");
@@ -34,6 +40,8 @@ public class codeEnter : MonoBehaviour
             txtError.enabled = false;
             GameObject.Find("vThirdPersonController").GetComponent<vThirdPersonCamera>().lockCamera = false;
             GameObject.Find("vThirdPersonCamera").GetComponent<Invector.CharacterController.vThirdPersonController>().lockMovement = false;
+            inputE.enabled = false;
+            pass = true;
         }
         else
         {
