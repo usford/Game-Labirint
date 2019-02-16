@@ -10,6 +10,7 @@ public class wrongPlatform : MonoBehaviour
         thisName = gameObject.name;
         if (thisName == "Cube33")
         { 
+
         }
     }
 
