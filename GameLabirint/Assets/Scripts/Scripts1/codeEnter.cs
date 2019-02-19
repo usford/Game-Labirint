@@ -39,7 +39,7 @@ public class codeEnter : MonoBehaviour
             panelE.SetActive(false);
             txtError.enabled = false;
             GameObject.Find("vThirdPersonController").GetComponent<vThirdPersonCamera>().lockCamera = false;
-            GameObject.Find("vThirdPersonCamera").GetComponent<Invector.CharacterController.vThirdPersonController>().lockMovement = false;
+            //GameObject.Find("vThirdPersonCamera").GetComponent<Invector.CharacterController.vThirdPersonController>().lockMovement = false;
             inputE.enabled = false;
             pass = true;
         }

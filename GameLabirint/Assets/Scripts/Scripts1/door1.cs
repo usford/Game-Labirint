@@ -26,7 +26,7 @@ public class door1 : MonoBehaviour
         if (Input.GetKeyDown("e") && used && thedoor.GetComponent<Animation>().isPlaying == false)
         {
             GameObject.Find("vThirdPersonController").GetComponent<vThirdPersonCamera>().lockCamera = true;
-            GameObject.Find("vThirdPersonCamera").GetComponent<Invector.CharacterController.vThirdPersonController>().lockMovement = true;
+            //GameObject.Find("vThirdPersonCamera").GetComponent<Invector.CharacterController.vThirdPersonController>().lockMovement = true;
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
             panelE.SetActive(true);          

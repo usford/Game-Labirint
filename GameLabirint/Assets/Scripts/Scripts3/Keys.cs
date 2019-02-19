@@ -5,10 +5,10 @@ using UnityEngine.UI;
 
 public class Keys : MonoBehaviour
 {
-    bool key1 = false;
-    bool key2 = false;
-    bool key3 = false;
-    bool key4 = false;
+    public bool key1;
+    public bool key2;
+    public bool key3;
+    public bool key4;
     public Image image1;
     public Image image2;
     public Image image3;
@@ -31,24 +31,24 @@ public class Keys : MonoBehaviour
         {
             case "key1":
                 {
-                    key1 = true;
+                    GameObject.Find("key5").GetComponent<Keys>().key1 = true;
                     break;
                 }
 
             case "key2":
                 {
-                    key2 = true;
+                    GameObject.Find("key5").GetComponent<Keys>().key2 = true;
                     break;
                 }
 
             case "key3":
                 {
-                    key3 = true;
+                    GameObject.Find("key5").GetComponent<Keys>().key3 = true;
                     break;
                 }
             case "key4":
                 {
-                    key4 = true;
+                    GameObject.Find("key5").GetComponent<Keys>().key4 = true;
                     break;
                 }
         }
@@ -70,5 +70,9 @@ public class Keys : MonoBehaviour
         {
             image4.enabled = true;
         }
+
+
+        GameObject.Find("key5").GetComponent<AudioSource>().Play();
+   
     }
 }
