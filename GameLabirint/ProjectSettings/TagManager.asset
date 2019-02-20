@@ -7,6 +7,9 @@ TagManager:
   - btnPress
   - Undefined
   - SF_Door
+  - Level2_TestTag
+  - Level2_Button
+  - ButtonCheckpoint1
   layers:
   - Default
   - TransparentFX
