@@ -21,13 +21,13 @@ public class Keys : MonoBehaviour
         image2.enabled = false;
         image3.enabled = false;
         image4.enabled = false;
-        key = gameObject.name;
     }
 
 
     void OnTriggerEnter(Collider other)
-    {       
-        switch(key)
+    {
+        key = gameObject.name;
+        switch (key)
         {
             case "key1":
                 {
