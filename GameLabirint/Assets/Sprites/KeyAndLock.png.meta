@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: ab46210f02aba9843b26ab144917d863
+guid: 76fed99c7ab204b4d84a0102950fc154
 TextureImporter:
   fileIDToRecycleName:
-    21300000: zamok1
-    21300002: zamok2
-    21300004: zamok3
-    21300006: key1
-    21300008: zamok4
-    21300010: zamok5
-    21300012: key2
-    21300014: key3
-    21300016: key4
+    21300000: KeyAndLock_0
+    21300002: KeyAndLock_1
+    21300004: KeyAndLock_2
+    21300006: KeyAndLock_3
+    21300008: KeyAndLock_4
+    21300010: KeyAndLock_5
+    21300012: KeyAndLock_6
+    21300014: KeyAndLock_7
+    21300016: KeyAndLock_8
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -55,11 +55,11 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 191, y: 219, z: 534, w: 198}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -93,13 +93,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: zamok1
+      name: KeyAndLock_0
       rect:
         serializedVersion: 2
-        x: 177
-        y: 393
-        width: 151
-        height: 180
+        x: 188
+        y: 415
+        width: 129
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -107,19 +107,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d47aee7a43ca74241b0cceb9f299a879
+      spriteID: 160ff3840fa5f1546ac9a5cd98878e8c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamok2
+      name: KeyAndLock_1
       rect:
         serializedVersion: 2
-        x: 380
-        y: 399
-        width: 140
-        height: 172
+        x: 389
+        y: 405
+        width: 119
+        height: 159
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,19 +127,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb2f8587d5241524eb561b93879694de
+      spriteID: f708a7e71688e62438dd74e456a198d8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamok3
+      name: KeyAndLock_2
       rect:
         serializedVersion: 2
-        x: 581
-        y: 399
-        width: 131
-        height: 166
+        x: 594
+        y: 405
+        width: 109
+        height: 159
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,19 +147,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 454db66187d4fb94dad05ed48faef071
+      spriteID: dc278b5ffd308f04f93debaf33d162ab
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: key1
+      name: KeyAndLock_3
       rect:
         serializedVersion: 2
-        x: 183
-        y: 225
-        width: 133
-        height: 162
+        x: 205
+        y: 226
+        width: 93
+        height: 154
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,19 +167,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 075b79f50b4b3a3439bca2e0e6c32c7d
+      spriteID: 74c17f7f58b65f040944aa53bb2938c1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamok4
+      name: KeyAndLock_4
       rect:
         serializedVersion: 2
-        x: 377
-        y: 210
-        width: 137
-        height: 183
+        x: 399
+        y: 227
+        width: 102
+        height: 152
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,19 +187,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd49a796627fed740b3faed82c2c928c
+      spriteID: 1ac34a79acb5f6d41be3c306192320d4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamok5
+      name: KeyAndLock_5
       rect:
         serializedVersion: 2
-        x: 584
-        y: 207
-        width: 136
-        height: 186
+        x: 591
+        y: 221
+        width: 119
+        height: 154
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,19 +207,59 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ebb1781593f98c46bbaaf787f4816e8
+      spriteID: 7e394de799e7c424195e0138b8df2218
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: key2
+      name: KeyAndLock_6
       rect:
         serializedVersion: 2
-        x: 209
-        y: 24
+        x: 191
+        y: 36
+        width: 99
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a8f1769fa5abf48aaaa8181012634f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyAndLock_7
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 42
+        width: 81
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a675fa7536857244add48f974f3de83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyAndLock_8
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 40
         width: 87
-        height: 183
+        height: 154
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,55 +267,55 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f6f05a2c0ca39549b85f77093fa525d
+      spriteID: 7d64d6c8eeced8444aa768b402183863
       vertices: []
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: key3
-      rect:
-        serializedVersion: 2
-        x: 386
-        y: 18
-        width: 116
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c3a3df430fd85640af12546bfdf209a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: key4
-      rect:
-        serializedVersion: 2
-        x: 590
-        y: 30
-        width: 116
-        height: 171
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75d6d2241dec5c64692c059e5339482d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    outline: []
-    physicsShape: []
+    outline:
+    - - {x: -267, y: 121}
+      - {x: -267, y: 278}
+      - {x: -137, y: 278}
+      - {x: -137, y: 121}
+    - - {x: -61, y: 118}
+      - {x: -61, y: 283}
+      - {x: 58, y: 283}
+      - {x: 58, y: 118}
+    - - {x: 151, y: 115}
+      - {x: 151, y: 283}
+      - {x: 256, y: 283}
+      - {x: 256, y: 115}
+    - - {x: -270, y: -65}
+      - {x: -270, y: 74}
+      - {x: -140, y: 74}
+      - {x: -140, y: -65}
+    - - {x: -70, y: -71}
+      - {x: -70, y: 80}
+      - {x: 70, y: 80}
+      - {x: 70, y: -71}
+    - - {x: 140, y: -63}
+      - {x: 140, y: 80}
+      - {x: 270, y: 80}
+      - {x: 270, y: -63}
+    - - {x: -262, y: -251}
+      - {x: -262, y: -106}
+      - {x: -151, y: -106}
+      - {x: -151, y: -251}
+    - - {x: -55, y: -260}
+      - {x: -55, y: -106}
+      - {x: 47, y: -106}
+      - {x: 47, y: -260}
+    - - {x: 142, y: -251}
+      - {x: 142, y: -106}
+      - {x: 256, y: -106}
+      - {x: 256, y: -251}
+    physicsShape:
+    - - {x: -279, y: 107}
+      - {x: -279, y: 272}
+      - {x: -137, y: 272}
+      - {x: -137, y: 107}
     bones: []
-    spriteID: 383024b0ff5f20e48a3da62b99233d20
+    spriteID: 23283b5af2c5f5843a190ccdfc46abbb
     vertices: []
     indices: 
     edges: []

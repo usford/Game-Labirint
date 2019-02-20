@@ -7,6 +7,6 @@ public class ChangeLevel : MonoBehaviour
 {
     public void openLevel()
     {
-        SceneManager.LoadScene("Change");
+        SceneManager.LoadScene("ChangeLevel");
     }
 }
