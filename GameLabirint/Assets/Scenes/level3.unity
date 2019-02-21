@@ -771,6 +771,18 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.60245556
       objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
+      propertyPath: m_TagString
+      value: SF_Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
+      propertyPath: m_Name
+      value: door2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
+      propertyPath: m_Name
+      value: base2
+      objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.3406
@@ -787,14 +799,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 100008, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
-      propertyPath: m_TagString
-      value: SF_Door
-      objectReference: {fileID: 0}
-    - target: {fileID: 100008, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
-      propertyPath: m_Name
-      value: door2
-      objectReference: {fileID: 0}
     - target: {fileID: 11100000, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
       propertyPath: m_Animations.Array.size
       value: 3
@@ -810,10 +814,6 @@ PrefabInstance:
     - target: {fileID: 11100000, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
       propertyPath: m_AnimatePhysics
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
-      propertyPath: m_Name
-      value: base2
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114318827644022270, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
@@ -42179,6 +42179,18 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 0.60245556
       objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
+      propertyPath: m_TagString
+      value: SF_Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
+      propertyPath: m_Name
+      value: door1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
+      propertyPath: m_Name
+      value: base1
+      objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.3406
@@ -42195,14 +42207,6 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 100008, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
-      propertyPath: m_TagString
-      value: SF_Door
-      objectReference: {fileID: 0}
-    - target: {fileID: 100008, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
-      propertyPath: m_Name
-      value: door1
-      objectReference: {fileID: 0}
     - target: {fileID: 11100000, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
       propertyPath: m_Animations.Array.size
       value: 3
@@ -42218,10 +42222,6 @@ PrefabInstance:
     - target: {fileID: 11100000, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
       propertyPath: m_AnimatePhysics
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
-      propertyPath: m_Name
-      value: base1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114318827644022270, guid: cfef738579cd02c40b3b1d63e67b0f84, type: 3}
