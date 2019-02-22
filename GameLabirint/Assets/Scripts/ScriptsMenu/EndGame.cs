@@ -5,6 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class EndGame : MonoBehaviour
 {
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
     public void BackToMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
