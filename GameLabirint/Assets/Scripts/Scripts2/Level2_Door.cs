@@ -32,19 +32,4 @@ public class Level2_Door : MonoBehaviour
             used = true;
         }
     }
-    //void OnTriggerStay()
-    //{
-    //    if (Input.GetKeyDown("e") && used && door.GetComponent<Animation>().isPlaying == false)
-    //    {
-    //        door.GetComponent<Animation>().Play("open");
-    //        button.GetComponent<Animation>().Play("Level2_PressButton");
-    //        used = false;
-    //    }
-    //    else if (Input.GetKeyDown("e") && used == false && door.GetComponent<Animation>().isPlaying == false)
-    //    {
-    //        door.GetComponent<Animation>().Play("close");
-    //        button.GetComponent<Animation>().Play("Level2_PressButton");
-    //        used = true;
-    //    }
-    //}
 }
