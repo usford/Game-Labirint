@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ExitFromChangeLevel : MonoBehaviour
+public class NextLevel : MonoBehaviour
 {
-    public void exit()
+    void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("level4");
     }
 }

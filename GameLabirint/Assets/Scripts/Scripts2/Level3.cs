@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ChangeLevel : MonoBehaviour
+public class Level3 : MonoBehaviour
 {
-    public void openLevel()
+    private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene("ChangeLevel");
+        SceneManager.LoadScene("level3");
     }
 }
