@@ -1,0 +1,328 @@
+fileFormatVersion: 2
+guid: 76fed99c7ab204b4d84a0102950fc154
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: KeyAndLock_0
+    21300002: KeyAndLock_1
+    21300004: KeyAndLock_2
+    21300006: KeyAndLock_3
+    21300008: KeyAndLock_4
+    21300010: KeyAndLock_5
+    21300012: KeyAndLock_6
+    21300014: KeyAndLock_7
+    21300016: KeyAndLock_8
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 191, y: 219, z: 534, w: 198}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KeyAndLock_0
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 415
+        width: 129
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160ff3840fa5f1546ac9a5cd98878e8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyAndLock_1
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 405
+        width: 119
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f708a7e71688e62438dd74e456a198d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyAndLock_2
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 405
+        width: 109
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc278b5ffd308f04f93debaf33d162ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyAndLock_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 226
+        width: 93
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c17f7f58b65f040944aa53bb2938c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyAndLock_4
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 227
+        width: 102
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac34a79acb5f6d41be3c306192320d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyAndLock_5
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 221
+        width: 119
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e394de799e7c424195e0138b8df2218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyAndLock_6
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 36
+        width: 99
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a8f1769fa5abf48aaaa8181012634f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyAndLock_7
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 42
+        width: 81
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a675fa7536857244add48f974f3de83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyAndLock_8
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 40
+        width: 87
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d64d6c8eeced8444aa768b402183863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -267, y: 121}
+      - {x: -267, y: 278}
+      - {x: -137, y: 278}
+      - {x: -137, y: 121}
+    - - {x: -61, y: 118}
+      - {x: -61, y: 283}
+      - {x: 58, y: 283}
+      - {x: 58, y: 118}
+    - - {x: 151, y: 115}
+      - {x: 151, y: 283}
+      - {x: 256, y: 283}
+      - {x: 256, y: 115}
+    - - {x: -270, y: -65}
+      - {x: -270, y: 74}
+      - {x: -140, y: 74}
+      - {x: -140, y: -65}
+    - - {x: -70, y: -71}
+      - {x: -70, y: 80}
+      - {x: 70, y: 80}
+      - {x: 70, y: -71}
+    - - {x: 140, y: -63}
+      - {x: 140, y: 80}
+      - {x: 270, y: 80}
+      - {x: 270, y: -63}
+    - - {x: -262, y: -251}
+      - {x: -262, y: -106}
+      - {x: -151, y: -106}
+      - {x: -151, y: -251}
+    - - {x: -55, y: -260}
+      - {x: -55, y: -106}
+      - {x: 47, y: -106}
+      - {x: 47, y: -260}
+    - - {x: 142, y: -251}
+      - {x: 142, y: -106}
+      - {x: 256, y: -106}
+      - {x: 256, y: -251}
+    physicsShape:
+    - - {x: -279, y: 107}
+      - {x: -279, y: 272}
+      - {x: -137, y: 272}
+      - {x: -137, y: 107}
+    bones: []
+    spriteID: 23283b5af2c5f5843a190ccdfc46abbb
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
